@@ -1,0 +1,15 @@
+.brand-name {
+  text-align: center;
+}
+
+h1 {
+  font-family: BrandName;
+  letter-spacing: 0.1em;
+  font-size: 10em;
+}
+
+h4 {
+  font-family: HeadersBold;
+  font-weight: 100;
+  margin-bottom: 0;
+}
