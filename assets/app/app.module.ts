@@ -8,6 +8,8 @@ import { AdvantagesComponent } from './advantages/advantages.component';
 import { LocationComponent } from './location/location.component';
 import { RegistrationComponent } from './registration/registration.component';
 
+import {FormModule } from './registration/form/form.module';
+
 @NgModule({
     declarations: [
       AppComponent,
@@ -17,7 +19,10 @@ import { RegistrationComponent } from './registration/registration.component';
       LocationComponent,
       RegistrationComponent,
     ],
-    imports: [BrowserModule],
+    imports: [
+      BrowserModule,
+      FormModule
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {

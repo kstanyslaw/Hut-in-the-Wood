@@ -1,0 +1,15 @@
+.dropdown-menu {
+    display: block;
+}
+
+td {
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+:disabled {
+    color: rgb(161, 160, 160);
+}

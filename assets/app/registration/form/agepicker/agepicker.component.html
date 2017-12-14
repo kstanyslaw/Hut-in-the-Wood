@@ -1,0 +1,5 @@
+<div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-secondary" *ngFor="let age of ages">
+  <input type="radio" name="options" autocomplete="off" (click)="onSelect(age)"> {{age.range}}
+</label>
+</div>

@@ -1,0 +1,60 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">{{GetMonthName(month)}}</th>
+            <th scope="col">{{GetMonthName(nextMonth)}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Mo</th>
+                            <th scope="col">Tu</th>
+                            <th scope="col">We</th>
+                            <th scope="col">Th</th>
+                            <th scope="col">Fr</th>
+                            <th scope="col">Sa</th>
+                            <th scope="col">Su</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let week of month'>
+                            <td *ngFor='let day of week'>
+                                <button type="button" class="btn btn-outline-dark" [disabled]="!day.isAvaliable" (click)="onSelect(day)">
+                                        {{day.day}}
+                                      </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Mo</th>
+                            <th scope="col">Tu</th>
+                            <th scope="col">We</th>
+                            <th scope="col">Th</th>
+                            <th scope="col">Fr</th>
+                            <th scope="col">Sa</th>
+                            <th scope="col">Su</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let week of nextMonth'>
+                            <td *ngFor='let day of week'>
+                                <button type="button" class="btn btn-outline-dark" [disabled]="!day.isAvaliable" (click)="onSelect(day)">
+                                        {{day.day}}
+                                      </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
