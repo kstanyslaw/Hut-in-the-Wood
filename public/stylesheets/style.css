@@ -11,6 +11,10 @@
 
 body {
   font-family: 'Benguiat Rus', arial;
+  background-image: url('./images/Background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
 }
 
 a {
