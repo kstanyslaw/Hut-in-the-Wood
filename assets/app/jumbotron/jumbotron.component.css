@@ -4,12 +4,26 @@
 
 h1 {
   font-family: BrandName;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.055em;
+  word-spacing: 0.1em;
   font-size: 10em;
 }
 
+h1 span {
+  letter-spacing: 0.14em;
+}
+
 h4 {
+  color: rgb(175, 175, 175);
   font-family: HeadersBold;
   font-weight: 100;
   margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 0;
+  background-image: url('./stylesheets/images/Jumbotron.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

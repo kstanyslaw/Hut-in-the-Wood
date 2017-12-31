@@ -1,0 +1,7 @@
+.jumbotron {
+  background-image: url('./stylesheets/images/Form.png');
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}

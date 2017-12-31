@@ -1,48 +1,46 @@
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
-            <div class="form-row">
+<div class="container">
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="form-row">
 
-                <div class="form-group col-md-6">
-                    <label for="">Количество человек в команде</label>
-                    <app-teammates (onChooseTeammate)="onChooseTeammate($event)"></app-teammates>
-                </div>
+      <div class="form-group col-md-6">
+        <label for="">Количество человек в команде</label>
+        <app-teammates (onChooseTeammate)="onChooseTeammate($event)"></app-teammates>
+      </div>
 
-                <div class="form-group col-md-6">
-                    <label for="">Минимальный возраст участника</label>
-                    <app-agepicker (onChooseAge)="onChooseAge($event)"></app-agepicker>
-                </div>
-            </div>
-
-            <div class="form-row">
-                <div class="form-group col-md-6 dropdown">
-                    <label for="">Дата</label>
-                    <input id="datepicker" type="text" formControlName="choosenDate" class="form-control" value="{{choosenDate}}" readonly>
-                    <div class="dropdown-content">
-                        <app-month (onChooseDate)="onChooseDate($event)"></app-month>
-                    </div>
-                </div>
-
-                <div class="form-group col-md-6">
-                    <label for="">Время</label>
-                    <app-timepicker (onChooseTime)="onChooseTime($event)"></app-timepicker>
-                </div>
-            </div>
-
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="">Телефон</label>
-                    <input type="text" formControlName="phone" class="form-control">
-                </div>
-
-                <div class="form-group col-md-6">
-                    <label for="">Имя</label>
-                    <input type="text" formControlName="name" class="form-control">
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Забронировать квест</button>
-
-        </form>
+      <div class="form-group col-md-6">
+        <label for="">Минимальный возраст участника</label>
+        <app-agepicker (onChooseAge)="onChooseAge($event)"></app-agepicker>
+      </div>
     </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6 dropdown">
+        <label for="">Дата</label>
+        <input id="datepicker" type="text" formControlName="choosenDate" class="form-control" value="{{choosenDate}}" readonly>
+        <div class="dropdown-content">
+          <app-month (onChooseDate)="onChooseDate($event)"></app-month>
+        </div>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Время</label>
+        <app-timepicker (onChooseTime)="onChooseTime($event)"></app-timepicker>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="">Телефон</label>
+        <input type="text" formControlName="phone" class="form-control">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Имя</label>
+        <input type="text" formControlName="name" class="form-control">
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Забронировать квест</button>
+
+  </form>
 </div>
