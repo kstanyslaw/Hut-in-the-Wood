@@ -1,3 +1,8 @@
 .card {
   margin-bottom: 2rem;
+  background-image: url(./stylesheets/images/List.png);
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
