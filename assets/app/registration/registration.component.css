@@ -1,5 +1,9 @@
 .jumbotron {
+<<<<<<< HEAD
   background-image: url('./stylesheets/images/Form.png');
+=======
+  background-image: url('http://localhost:3000/stylesheets/images/Form.png');
+>>>>>>> 958f17e576dbbfffd3d5c2c7c3d8fea7c5ec037a
   background-position: center;
   background-size: cover;
   background-color: transparent;
