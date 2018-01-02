@@ -1,24 +1,11 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d12bd50bad2b5934581b828cb3ece38e6e70ab5e
 nav {
   position: static;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 958f17e576dbbfffd3d5c2c7c3d8fea7c5ec037a
->>>>>>> d12bd50bad2b5934581b828cb3ece38e6e70ab5e
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d12bd50bad2b5934581b828cb3ece38e6e70ab5e
   background-color: rgb(182, 182, 182);
   height: 5em;
   width: 5em;
@@ -27,9 +14,4 @@ nav {
   background-image: url('./stylesheets/images/Brand.png');
   background-position: center;
   background-size: contain;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 958f17e576dbbfffd3d5c2c7c3d8fea7c5ec037a
->>>>>>> d12bd50bad2b5934581b828cb3ece38e6e70ab5e
 }

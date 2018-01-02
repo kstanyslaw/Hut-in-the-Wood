@@ -26,17 +26,8 @@ p {
 }
 
 .jumbotron {
-<<<<<<< HEAD
   padding-top: 0;
   background-image: url('./stylesheets/images/Jumbotron.png');
-=======
-<<<<<<< HEAD
-  padding-top: 0;
-  background-image: url('./stylesheets/images/Jumbotron.png');
-=======
-  background-image: url('http://localhost:3000/stylesheets/images/Jumbotron.png');
->>>>>>> 958f17e576dbbfffd3d5c2c7c3d8fea7c5ec037a
->>>>>>> d12bd50bad2b5934581b828cb3ece38e6e70ab5e
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
