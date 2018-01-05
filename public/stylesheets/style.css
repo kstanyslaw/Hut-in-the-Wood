@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: BodyCopyBold;
+  font-weight: bold;
+  src: url("./BodyCopyBold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: BrandName;
     src: url("./BrandName.otf") format("opentype");
 }

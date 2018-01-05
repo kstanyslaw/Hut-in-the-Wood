@@ -1,8 +1,22 @@
 .card {
   margin-bottom: 2rem;
+  padding: 1.3em;
   background-image: url(./stylesheets/images/List.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-color: transparent;
   background-repeat: no-repeat;
+  height: 22em;
+}
+
+.card-body {
+  display: flex;
+  align-items: flex-end;
+}
+
+p {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 1.3;
 }
